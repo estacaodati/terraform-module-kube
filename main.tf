@@ -69,7 +69,7 @@ resource "azurerm_kubernetes_cluster" "default" {
 
 resource "helm_release" "chart_grafana" {
   count      = var.enable_grafana ? 1 : 0
-  name       = "grafana"
+  name       = "grafana1"
   chart      = "grafana"
   namespace  = "monitoracao"
   version     = "6.50.2"
