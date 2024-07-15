@@ -32,7 +32,7 @@ provider "helm" {
 
 resource "azurerm_resource_group" "rg" {
   name     =  "k8s-${var.env}-${var.project_name}"
-  location = "West Europe"
+  location = var.region
 }
 
 resource "kubernetes_namespace" "ns_monitoracao" {

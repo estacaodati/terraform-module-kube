@@ -8,6 +8,13 @@ variable "env" {
   }
 }
 
+variable "region" {
+  type = string
+  description = "Região para o deploy"
+  default = "canadacentral"
+}
+
+
 variable "project_name" {
   type = string
   description = "Prefixo usado em cada projeto"
