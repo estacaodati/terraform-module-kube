@@ -40,3 +40,7 @@ module "aks_lab" {
   region                = "canadacentral"
 }
 ```
+
+---
+Este repositório faz parte da sequência de videos lançados pelo canal [Estação da TI](https://www.youtube.com/@estacaodati)
+
